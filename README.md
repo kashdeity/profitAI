@@ -1,90 +1,11 @@
-# Profit AI Starter
+Profit AI** is a local market analysis tool that downloads real-time stock and cryptocurrency data and analyzes it using technical indicators — SMA, RSI, MACD, and Bollinger Bands — to generate plain-language buy, sell, or hold signals with full reasoning.
 
-A beginner-friendly Python project for learning how stock/crypto analysis software works.
+It runs entirely on your machine with no subscription, no API key, and no paid service. Data comes from Yahoo Finance for stocks and CoinGecko for crypto.
 
-> Important: this project is for education and paper trading only. It does **not** guarantee profit and does **not** place real trades.
+The interface has two views side by side: a **beginner mode** that explains every signal in simple terms with step-by-step actions and visual scenarios, and a **professional mode** with full indicator readings, key price levels, stop loss and take profit targets, risk/reward ratio, and a detailed entry plan. Every recommendation includes honest risk warnings so the user knows what could go wrong.
 
-## What it does
+Beyond single-asset analysis, the app includes a **market scanner** that checks an entire watchlist at once and ranks symbols by opportunity score, and a **backtester** that simulates how the strategy would have performed historically and plots the equity curve against a buy-and-hold baseline.
 
-- Downloads historical market prices for stocks or crypto
-- Calculates basic indicators:
-  - SMA 20 / SMA 50
-  - RSI 14
-  - MACD
-- Produces a simple rule-based analysis signal:
-  - `BUY`
-  - `SELL`
-  - `HOLD`
-- Runs a simple backtest so you can see how a strategy would have performed historically
+The app supports **English and Turkish** throughout — every signal, chart label, explanation, and recommendation is fully translated. It covers 47 stocks including 15 Turkish equities listed on Borsa İstanbul, and 20 major cryptocurrencies, all selectable from a dropdown. Users can also enter any custom ticker or coin ID.
 
-## Setup
-
-Requires Python 3.10+.
-
-```bash
-python -m venv .venv
-```
-
-Windows Git Bash / sh:
-
-```bash
-. .venv/Scripts/activate
-```
-
-macOS/Linux:
-
-```bash
-. .venv/bin/activate
-```
-
-Install the project and dependencies:
-
-```bash
-pip install -e .
-```
-
-## Examples
-
-Analyze Apple stock:
-
-```bash
-python -m profit_ai analyze --type stock --symbol AAPL --period 6mo
-```
-
-Analyze Bitcoin:
-
-```bash
-python -m profit_ai analyze --type crypto --symbol bitcoin --days 180
-```
-
-Backtest Apple:
-
-```bash
-python -m profit_ai backtest --type stock --symbol AAPL --period 1y
-```
-
-Backtest Bitcoin:
-
-```bash
-python -m profit_ai backtest --type crypto --symbol bitcoin --days 365
-```
-
-## How to learn from this project
-
-Start by reading these files in order:
-
-1. `src/profit_ai/__main__.py` - CLI commands
-2. `src/profit_ai/data.py` - how prices are downloaded
-3. `src/profit_ai/indicators.py` - how indicators are calculated
-4. `src/profit_ai/strategy.py` - how BUY/SELL/HOLD is decided
-5. `src/profit_ai/backtest.py` - how paper trading simulation works
-
-## Next improvement ideas
-
-- Add more indicators: Bollinger Bands, ATR, volume analysis
-- Save results into MySQL
-- Build a small web dashboard with PHP or Flask
-- Add real news/sentiment analysis
-- Add an LLM explanation layer using an API key
-- Add risk controls: max position size, stop loss, take profit
-- Add proper tests
+Built with Python, Streamlit, and Plotly. Not financial advice.
