@@ -1,5 +1,4 @@
-![Uploading Gemini_Generated_Image_qp49nmqp49nmqp49.png…]()
-
+<img width="1221" height="864" alt="Gemini_Generated_Image_qp49nmqp49nmqp49" src="https://github.com/user-attachments/assets/39cce443-0789-4794-be6d-375d999c9d61" />
 
 İNGİLİZCE
 -
