@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/profit_ai/__init__.py
+src/profit_ai/__main__.py
+src/profit_ai/backtest.py
+src/profit_ai/data.py
+src/profit_ai/indicators.py
+src/profit_ai/insights.py
+src/profit_ai/scanner.py
+src/profit_ai/strategy.py
+src/profit_ai_starter.egg-info/PKG-INFO
+src/profit_ai_starter.egg-info/SOURCES.txt
+src/profit_ai_starter.egg-info/dependency_links.txt
+src/profit_ai_starter.egg-info/requires.txt
+src/profit_ai_starter.egg-info/top_level.txt

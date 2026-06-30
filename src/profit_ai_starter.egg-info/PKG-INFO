@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: profit-ai-starter
+Version: 0.1.0
+Summary: Educational market analysis and paper trading starter app
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: yfinance>=0.2.40
