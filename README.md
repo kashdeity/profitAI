@@ -1,3 +1,5 @@
+İNGİLİZCE
+-
 **Profit AI** is a local market analysis tool that downloads real-time stock and cryptocurrency data and analyzes it using technical indicators — SMA, RSI, MACD, and Bollinger Bands — to generate plain-language buy, sell, or hold signals with full reasoning.
 
 It runs entirely on your machine with no subscription, no API key, and no paid service. Data comes from Yahoo Finance for stocks and CoinGecko for crypto.
