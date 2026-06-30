@@ -2,8 +2,10 @@
 
 İNGİLİZCE
 -
+
 HOW TO RUN ->  .venv/Scripts/activate
                  streamlit run app.py
+                 
 -
 **Profit AI** is a local market analysis tool that downloads real-time stock and cryptocurrency data and analyzes it using technical indicators — SMA, RSI, MACD, and Bollinger Bands — to generate plain-language buy, sell, or hold signals with full reasoning.
 
@@ -19,8 +21,10 @@ Built with Python, Streamlit, and Plotly. Not financial advice.
 
 TÜRKÇE
 -
+
 NASIL ÇALIŞTIRILIR ->  .venv/Scripts/activate
                          streamlit run app.py
+                         
 -
 **Profit AI**, gerçek zamanlı hisse senedi ve kripto para verilerini indirerek SMA, RSI, MACD ve Bollinger Bantları gibi teknik göstergelerle analiz eden ve her kararın gerekçesiyle birlikte sade bir dille al, sat veya bekle sinyalleri üreten yerel bir piyasa analiz aracıdır.
 
